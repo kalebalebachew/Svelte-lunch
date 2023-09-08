@@ -3,7 +3,7 @@
     let schoolName
 </script>
 
-<div class="notification">
+<div class="notification" style="background-color=">
     <div class="columns">
         <div class="column">
             <div class="content">
@@ -52,8 +52,8 @@
 <div class="container">
     <div class="content" style="line-height: 30px;">
         <center>
-            <span>Already registered?</span>
-            <button class="button  is-text">Login</button>
+            <h3><span>Already registered?</span></h3>
+            <button class="button  is-link is-outlined" style="height: 35px;">Login</button>
         </center>
     </div>
 </div>
