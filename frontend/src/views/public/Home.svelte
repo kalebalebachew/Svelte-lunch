@@ -1,3 +1,8 @@
+<script>
+    let emailAddress
+    let schoolName
+</script>
+
 <div class="notification">
     <div class="columns">
         <div class="column">
@@ -18,6 +23,7 @@
             <label class="label">Email Address</label>
             <div class="control">
                 <input
+                bind:value={emailAddress}
                 type="text"
                 placeholder="Enter your email address"
                 class="input"/>
@@ -27,6 +33,7 @@
             <label class="label">School Name</label>
             <div class="control">
                 <input
+                bind:value={schoolName}
                 type="text"
                 placeholder="Enter your school name"
                 class="input"/>
